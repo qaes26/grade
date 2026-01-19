@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply font-sans antialiased bg-gray-900 text-white;
+  }
+}
+
+@layer utilities {
+  .animate-gradient {
+    background: linear-gradient(135deg, #1a1c2e 0%, #0f172a 100%);
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
