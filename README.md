@@ -1,4 +1,5 @@
 # GPA Calculator (حاسبة المعدل التراكمي)
+<!-- Last sync: Manual Trigger -->
 
 A modern, responsive, and legendary GPA calculator application built with React, Vite, and Tailwind CSS.
 Features full Arabic localization, RTL support, and PDF export functionality.
